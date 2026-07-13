@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Unidade Centro",
+    "latitude": -27.5969,
+    "longitude": -48.5495,
+    "demand_kg": 12.0,
+    "priority": "critical",
+    "item": "Insulina e medicamentos refrigerados"
+  },
+  {
+    "id": 2,
+    "name": "Unidade Trindade",
+    "latitude": -27.586,
+    "longitude": -48.5198,
+    "demand_kg": 18.0,
+    "priority": "high",
+    "item": "Antibióticos"
+  },
+  {
+    "id": 3,
+    "name": "Unidade Agronômica",
+    "latitude": -27.5768,
+    "longitude": -48.5428,
+    "demand_kg": 15.0,
+    "priority": "medium",
+    "item": "Materiais para curativo"
+  },
+  {
+    "id": 4,
+    "name": "Unidade Estreito",
+    "latitude": -27.596,
+    "longitude": -48.573,
+    "demand_kg": 20.0,
+    "priority": "high",
+    "item": "Medicamentos de emergência"
+  },
+  {
+    "id": 5,
+    "name": "Unidade Itacorubi",
+    "latitude": -27.5806,
+    "longitude": -48.4955,
+    "demand_kg": 10.0,
+    "priority": "medium",
+    "item": "Soro fisiológico"
+  },
+  {
+    "id": 6,
+    "name": "Unidade Lagoa",
+    "latitude": -27.6038,
+    "longitude": -48.4671,
+    "demand_kg": 14.0,
+    "priority": "low",
+    "item": "Materiais administrativos"
+  },
+  {
+    "id": 7,
+    "name": "Unidade Saco Grande",
+    "latitude": -27.544,
+    "longitude": -48.5015,
+    "demand_kg": 16.0,
+    "priority": "critical",
+    "item": "Hemoderivados"
+  },
+  {
+    "id": 8,
+    "name": "Unidade Canasvieiras",
+    "latitude": -27.4311,
+    "longitude": -48.4595,
+    "demand_kg": 22.0,
+    "priority": "medium",
+    "item": "Kits de coleta"
+  },
+  {
+    "id": 9,
+    "name": "Unidade Campeche",
+    "latitude": -27.6797,
+    "longitude": -48.5002,
+    "demand_kg": 17.0,
+    "priority": "high",
+    "item": "Vacinas"
+  },
+  {
+    "id": 10,
+    "name": "Atendimento Domiciliar Sul",
+    "latitude": -27.7035,
+    "longitude": -48.507,
+    "demand_kg": 8.0,
+    "priority": "low",
+    "item": "Insumos para home care"
+  }
+]

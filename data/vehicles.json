@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Van Hospitalar 01",
+    "capacity_kg": 80.0,
+    "max_distance_km": 130.0
+  },
+  {
+    "id": 2,
+    "name": "Van Hospitalar 02",
+    "capacity_kg": 80.0,
+    "max_distance_km": 130.0
+  }
+]
