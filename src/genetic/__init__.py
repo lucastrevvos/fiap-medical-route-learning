@@ -1,0 +1,1 @@
+"""Componentes do algoritmo genético."""
