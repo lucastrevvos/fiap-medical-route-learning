@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9eb45977b86d5dc3bab0bdd5cfd0a5bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9eb45977b86d5dc3bab0bdd5cfd0a5bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9eb45977b86d5dc3bab0bdd5cfd0a5bf = L.map(
+                "map_9eb45977b86d5dc3bab0bdd5cfd0a5bf",
+                {
+                    center: [-27.595377, -48.54805],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ee5000d7bea470a4eaa00ed730b14d2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1ee5000d7bea470a4eaa00ed730b14d2.addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var marker_73aeaa388ae44c4c48ac38fc75a23299 = L.marker(
+                [-27.595377, -48.54805],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_8eb39ae36178bfc3bf29ffa6c5d63d47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85fbfa060146f505660105057fced10a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f6667cbe570dad99bdab27e0e4fb125 = $(`<div id="html_1f6667cbe570dad99bdab27e0e4fb125" style="width: 100.0%; height: 100.0%;"><strong>Centro de Distribuição Hospitalar</strong><br>Saída e retorno dos veículos</div>`)[0];
+                popup_85fbfa060146f505660105057fced10a.setContent(html_1f6667cbe570dad99bdab27e0e4fb125);
+            
+        
+
+        marker_73aeaa388ae44c4c48ac38fc75a23299.bindPopup(popup_85fbfa060146f505660105057fced10a)
+        ;
+
+        
+    
+    
+            marker_73aeaa388ae44c4c48ac38fc75a23299.bindTooltip(
+                `<div>
+                     Centro de Distribuição Hospitalar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_73aeaa388ae44c4c48ac38fc75a23299.setIcon(icon_8eb39ae36178bfc3bf29ffa6c5d63d47);
+            
+    
+            var marker_67096e269256bdc915219627aa5edbc3 = L.marker(
+                [-27.544, -48.5015],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_8167d5783b3801911b40c448bced4a97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f70a7d05e933e16cd7b6ea854bf06e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3aa22d2d927f1ffd8394ca9097e1632 = $(`<div id="html_d3aa22d2d927f1ffd8394ca9097e1632" style="width: 100.0%; height: 100.0%;"><strong>1. Unidade Saco Grande</strong><br>Veículo: Van Hospitalar 01<br>Item: Hemoderivados<br>Prioridade: critical<br>Carga: 16.0 kg</div>`)[0];
+                popup_7f70a7d05e933e16cd7b6ea854bf06e9.setContent(html_d3aa22d2d927f1ffd8394ca9097e1632);
+            
+        
+
+        marker_67096e269256bdc915219627aa5edbc3.bindPopup(popup_7f70a7d05e933e16cd7b6ea854bf06e9)
+        ;
+
+        
+    
+    
+            marker_67096e269256bdc915219627aa5edbc3.bindTooltip(
+                `<div>
+                     1. Unidade Saco Grande
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67096e269256bdc915219627aa5edbc3.setIcon(icon_8167d5783b3801911b40c448bced4a97);
+            
+    
+            var marker_fdcfecc7c2ae04fa2e2fdc68b0407b38 = L.marker(
+                [-27.6797, -48.5002],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_0fdfb2f94212d2ab6aca2271d9ce4cca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1776af7418b11b6070ca8a0637be0db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08a6ecd45f09900d3d06618dca05d647 = $(`<div id="html_08a6ecd45f09900d3d06618dca05d647" style="width: 100.0%; height: 100.0%;"><strong>2. Unidade Campeche</strong><br>Veículo: Van Hospitalar 01<br>Item: Vacinas<br>Prioridade: high<br>Carga: 17.0 kg</div>`)[0];
+                popup_1776af7418b11b6070ca8a0637be0db0.setContent(html_08a6ecd45f09900d3d06618dca05d647);
+            
+        
+
+        marker_fdcfecc7c2ae04fa2e2fdc68b0407b38.bindPopup(popup_1776af7418b11b6070ca8a0637be0db0)
+        ;
+
+        
+    
+    
+            marker_fdcfecc7c2ae04fa2e2fdc68b0407b38.bindTooltip(
+                `<div>
+                     2. Unidade Campeche
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fdcfecc7c2ae04fa2e2fdc68b0407b38.setIcon(icon_0fdfb2f94212d2ab6aca2271d9ce4cca);
+            
+    
+            var marker_aaed52296ae7f1f677a9a1765261df53 = L.marker(
+                [-27.7035, -48.507],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_13e8c0ea2944acae586db452030ded74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c60b463d2e6ec611d5ab59d402b1008e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfd60ab24ae514e9d7e4ddd4e298ad89 = $(`<div id="html_dfd60ab24ae514e9d7e4ddd4e298ad89" style="width: 100.0%; height: 100.0%;"><strong>3. Atendimento Domiciliar Sul</strong><br>Veículo: Van Hospitalar 01<br>Item: Insumos para home care<br>Prioridade: low<br>Carga: 8.0 kg</div>`)[0];
+                popup_c60b463d2e6ec611d5ab59d402b1008e.setContent(html_dfd60ab24ae514e9d7e4ddd4e298ad89);
+            
+        
+
+        marker_aaed52296ae7f1f677a9a1765261df53.bindPopup(popup_c60b463d2e6ec611d5ab59d402b1008e)
+        ;
+
+        
+    
+    
+            marker_aaed52296ae7f1f677a9a1765261df53.bindTooltip(
+                `<div>
+                     3. Atendimento Domiciliar Sul
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aaed52296ae7f1f677a9a1765261df53.setIcon(icon_13e8c0ea2944acae586db452030ded74);
+            
+    
+            var marker_3fb6a756b43dc5fbef13f5e71931bc1b = L.marker(
+                [-27.6038, -48.4671],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_a9e83d0ee4c4a325a082f0ac7abdd379 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8999e00be7464df8a6457b4b0eeb25f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dce26f70489835519a9f4748feb3be38 = $(`<div id="html_dce26f70489835519a9f4748feb3be38" style="width: 100.0%; height: 100.0%;"><strong>4. Unidade Lagoa</strong><br>Veículo: Van Hospitalar 01<br>Item: Materiais administrativos<br>Prioridade: low<br>Carga: 14.0 kg</div>`)[0];
+                popup_8999e00be7464df8a6457b4b0eeb25f1.setContent(html_dce26f70489835519a9f4748feb3be38);
+            
+        
+
+        marker_3fb6a756b43dc5fbef13f5e71931bc1b.bindPopup(popup_8999e00be7464df8a6457b4b0eeb25f1)
+        ;
+
+        
+    
+    
+            marker_3fb6a756b43dc5fbef13f5e71931bc1b.bindTooltip(
+                `<div>
+                     4. Unidade Lagoa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3fb6a756b43dc5fbef13f5e71931bc1b.setIcon(icon_a9e83d0ee4c4a325a082f0ac7abdd379);
+            
+    
+            var marker_5eefb14412e49e70bff08a9575f178ca = L.marker(
+                [-27.4311, -48.4595],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_a5c4105853ebae757285997d30fc25de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2120ea1e3df8c48f305f69bab65424f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80a8a40ac11d9007aace12ec94e001f5 = $(`<div id="html_80a8a40ac11d9007aace12ec94e001f5" style="width: 100.0%; height: 100.0%;"><strong>5. Unidade Canasvieiras</strong><br>Veículo: Van Hospitalar 01<br>Item: Kits de coleta<br>Prioridade: medium<br>Carga: 22.0 kg</div>`)[0];
+                popup_2120ea1e3df8c48f305f69bab65424f0.setContent(html_80a8a40ac11d9007aace12ec94e001f5);
+            
+        
+
+        marker_5eefb14412e49e70bff08a9575f178ca.bindPopup(popup_2120ea1e3df8c48f305f69bab65424f0)
+        ;
+
+        
+    
+    
+            marker_5eefb14412e49e70bff08a9575f178ca.bindTooltip(
+                `<div>
+                     5. Unidade Canasvieiras
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5eefb14412e49e70bff08a9575f178ca.setIcon(icon_a5c4105853ebae757285997d30fc25de);
+            
+    
+            var poly_line_d72e42bc397b5f17ccd1277cf51bac03 = L.polyline(
+                [[-27.595377, -48.54805], [-27.544, -48.5015], [-27.6797, -48.5002], [-27.7035, -48.507], [-27.6038, -48.4671], [-27.4311, -48.4595], [-27.595377, -48.54805]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            poly_line_d72e42bc397b5f17ccd1277cf51bac03.bindTooltip(
+                `<div>
+                     Van Hospitalar 01: 76.37 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5537ab90dac2835ddaac04ff7ecf0518 = L.marker(
+                [-27.5969, -48.5495],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_6b447e336b840125f9afb2acfd85458b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0d2d47d6618a8c06d17d00d56135533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6882f36a20a69a92f45e6c50ecff76a8 = $(`<div id="html_6882f36a20a69a92f45e6c50ecff76a8" style="width: 100.0%; height: 100.0%;"><strong>1. Unidade Centro</strong><br>Veículo: Van Hospitalar 02<br>Item: Insulina e medicamentos refrigerados<br>Prioridade: critical<br>Carga: 12.0 kg</div>`)[0];
+                popup_e0d2d47d6618a8c06d17d00d56135533.setContent(html_6882f36a20a69a92f45e6c50ecff76a8);
+            
+        
+
+        marker_5537ab90dac2835ddaac04ff7ecf0518.bindPopup(popup_e0d2d47d6618a8c06d17d00d56135533)
+        ;
+
+        
+    
+    
+            marker_5537ab90dac2835ddaac04ff7ecf0518.bindTooltip(
+                `<div>
+                     1. Unidade Centro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5537ab90dac2835ddaac04ff7ecf0518.setIcon(icon_6b447e336b840125f9afb2acfd85458b);
+            
+    
+            var marker_886b81efb22d6a6754dedfb440286870 = L.marker(
+                [-27.596, -48.573],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_570913d8be6af17ec0e0a7ab4dac653d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02e26ecc77c537bc0248656fd96c2b95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29286ae36dfb45ef71b6d5d5717ebad5 = $(`<div id="html_29286ae36dfb45ef71b6d5d5717ebad5" style="width: 100.0%; height: 100.0%;"><strong>2. Unidade Estreito</strong><br>Veículo: Van Hospitalar 02<br>Item: Medicamentos de emergência<br>Prioridade: high<br>Carga: 20.0 kg</div>`)[0];
+                popup_02e26ecc77c537bc0248656fd96c2b95.setContent(html_29286ae36dfb45ef71b6d5d5717ebad5);
+            
+        
+
+        marker_886b81efb22d6a6754dedfb440286870.bindPopup(popup_02e26ecc77c537bc0248656fd96c2b95)
+        ;
+
+        
+    
+    
+            marker_886b81efb22d6a6754dedfb440286870.bindTooltip(
+                `<div>
+                     2. Unidade Estreito
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_886b81efb22d6a6754dedfb440286870.setIcon(icon_570913d8be6af17ec0e0a7ab4dac653d);
+            
+    
+            var marker_07f96bbd5922cc20eb8097b46637c41b = L.marker(
+                [-27.586, -48.5198],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_77b683728871560ad320d62c0de51401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3aabec361bea3d1c2e6aed2a89981a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83bb987d0578825b56e56771c622a4f6 = $(`<div id="html_83bb987d0578825b56e56771c622a4f6" style="width: 100.0%; height: 100.0%;"><strong>3. Unidade Trindade</strong><br>Veículo: Van Hospitalar 02<br>Item: Antibióticos<br>Prioridade: high<br>Carga: 18.0 kg</div>`)[0];
+                popup_a3aabec361bea3d1c2e6aed2a89981a7.setContent(html_83bb987d0578825b56e56771c622a4f6);
+            
+        
+
+        marker_07f96bbd5922cc20eb8097b46637c41b.bindPopup(popup_a3aabec361bea3d1c2e6aed2a89981a7)
+        ;
+
+        
+    
+    
+            marker_07f96bbd5922cc20eb8097b46637c41b.bindTooltip(
+                `<div>
+                     3. Unidade Trindade
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07f96bbd5922cc20eb8097b46637c41b.setIcon(icon_77b683728871560ad320d62c0de51401);
+            
+    
+            var marker_994953ae6d6bd4d295668e6d8e52a8dc = L.marker(
+                [-27.5806, -48.4955],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_789f4620c12e8c525f843e3a92e41592 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9927343f8235c34cd0b997d7c1fb0dee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e2776d5099a1650289ce3665cd3715a = $(`<div id="html_4e2776d5099a1650289ce3665cd3715a" style="width: 100.0%; height: 100.0%;"><strong>4. Unidade Itacorubi</strong><br>Veículo: Van Hospitalar 02<br>Item: Soro fisiológico<br>Prioridade: medium<br>Carga: 10.0 kg</div>`)[0];
+                popup_9927343f8235c34cd0b997d7c1fb0dee.setContent(html_4e2776d5099a1650289ce3665cd3715a);
+            
+        
+
+        marker_994953ae6d6bd4d295668e6d8e52a8dc.bindPopup(popup_9927343f8235c34cd0b997d7c1fb0dee)
+        ;
+
+        
+    
+    
+            marker_994953ae6d6bd4d295668e6d8e52a8dc.bindTooltip(
+                `<div>
+                     4. Unidade Itacorubi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_994953ae6d6bd4d295668e6d8e52a8dc.setIcon(icon_789f4620c12e8c525f843e3a92e41592);
+            
+    
+            var marker_1deff3498231dfa3d949f042f51fe25e = L.marker(
+                [-27.5768, -48.5428],
+                {
+}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            var icon_055fc21c9910b7520197a47ba1ea9efb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_288151582b0964ba14c7bddd7e28b221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4abc8455e6189ffd01e3f3bbf5ff5430 = $(`<div id="html_4abc8455e6189ffd01e3f3bbf5ff5430" style="width: 100.0%; height: 100.0%;"><strong>5. Unidade Agronômica</strong><br>Veículo: Van Hospitalar 02<br>Item: Materiais para curativo<br>Prioridade: medium<br>Carga: 15.0 kg</div>`)[0];
+                popup_288151582b0964ba14c7bddd7e28b221.setContent(html_4abc8455e6189ffd01e3f3bbf5ff5430);
+            
+        
+
+        marker_1deff3498231dfa3d949f042f51fe25e.bindPopup(popup_288151582b0964ba14c7bddd7e28b221)
+        ;
+
+        
+    
+    
+            marker_1deff3498231dfa3d949f042f51fe25e.bindTooltip(
+                `<div>
+                     5. Unidade Agronômica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1deff3498231dfa3d949f042f51fe25e.setIcon(icon_055fc21c9910b7520197a47ba1ea9efb);
+            
+    
+            var poly_line_99ccbaac21709297ee9502c616c07ae1 = L.polyline(
+                [[-27.595377, -48.54805], [-27.5969, -48.5495], [-27.596, -48.573], [-27.586, -48.5198], [-27.5806, -48.4955], [-27.5768, -48.5428], [-27.595377, -48.54805]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_9eb45977b86d5dc3bab0bdd5cfd0a5bf);
+        
+    
+            poly_line_99ccbaac21709297ee9502c616c07ae1.bindTooltip(
+                `<div>
+                     Van Hospitalar 02: 17.18 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
