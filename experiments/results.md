@@ -1,0 +1,7 @@
+# Resultados dos experimentos
+
+| experiment | population_size | generations | mutation_rate | crossover_rate | tournament_size | elite_size | mean_cost | best_cost | mean_distance_km | best_distance_km | mean_time_seconds | best_priority_penalty | best_capacity_excess_kg | best_autonomy_excess_km | baseline_cost | baseline_distance_km |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| experiment_1 | 50 | 100 | 0.05 | 0.8 | 3 | 2 | 204.687 | 197.723 | 94.687 | 92.723 | 0.2284 | 105.0 | 0.0 | 0.0 | 263.654 | 88.654 |
+| experiment_2 | 100 | 200 | 0.1 | 0.85 | 3 | 2 | 204.417 | 197.723 | 99.417 | 92.723 | 0.9458 | 105.0 | 0.0 | 0.0 | 263.654 | 88.654 |
+| experiment_3 | 150 | 300 | 0.15 | 0.9 | 4 | 4 | 200.178 | 197.723 | 91.845 | 90.089 | 2.0761 | 105.0 | 0.0 | 0.0 | 263.654 | 88.654 |
