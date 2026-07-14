@@ -29,3 +29,12 @@ class Vehicle:
     name: str
     capacity_kg: float
     max_distance_km: float
+
+@dataclass(frozen=True)
+class VehicleRoute:
+    vehicle: Vehicle
+    deliveries: tuple[Delivery, ...]
+    load_kg: float
+    distance_km: float
+    capacity_excess_kg: float
+    autonomy_excess_km: float
