@@ -552,7 +552,7 @@ O Ollama permite executar a LLM localmente, sem depender de uma API externa dura
 Vídeo da apresentação:
 
 ```text
-
+https://youtu.be/5_iFJhwdy8c
 ```
 
 ---
